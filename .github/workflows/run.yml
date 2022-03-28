@@ -1,0 +1,23 @@
+name: "Run ci-flakiness bot"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 10 * * 1"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/osbuild/ci-flakiness:latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run the bot
+        env:
+          SLACK_WEBHOOK: "${{ secrets.SLACK_WEBHOOK }}"
+          GITHUB_TOKEN: "${{ github.token }}"
+        run: /ci-flakiness --export raw
+      - name: Commit back the results
+        uses: EndBug/add-and-commit@v9
+

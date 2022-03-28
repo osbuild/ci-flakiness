@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Name }}</title>
+  <style>
+      body {
+          font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+          margin: 1rem 2rem;
+      }
+
+      header {
+          display: flex;
+          align-items: center;
+      }
+
+      header img {
+          width: 4rem;
+          margin-right: 2rem;
+      }
+  </style>
+
+</head>
+<body>
+<header><img src="static/osbuild.png">
+  <h1>CI flakiness report from {{.Name}}</h1>
+</header>
+
+<a href="./">Back to the list of reports</a>
+
+{{ range .Jobs  }}
+  <h2>{{ (index . 0).Name }}</h2>
+  <ul>
+      {{ range . }}
+        <li><a href="{{ .WebURL }}">{{.Commit.Title}}</a></li>
+
+      {{ end}}
+  </ul>
+{{ end }}
+</body>
+</html>
