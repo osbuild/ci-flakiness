@@ -161,7 +161,7 @@ func main() {
 		}
 		ghOwner := "osbuild"
 		ghProject := "osbuild-composer"
-		glPid := "osbuild/ci/osbuild-composer"
+		glPid := "redhat/services/products/image-builder/ci/osbuild-composer"
 		failedJobs = getFailedJobs(gh, gl, ghOwner, ghProject, glPid)
 
 		if *flagExport != "" {
