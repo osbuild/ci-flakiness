@@ -1,0 +1,1950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>2022-05-16T10:22:24Z</title>
+  <style>
+      body {
+          font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+          margin: 1rem 2rem;
+      }
+
+      header {
+          display: flex;
+          align-items: center;
+      }
+
+      header img {
+          width: 4rem;
+          margin-right: 2rem;
+      }
+  </style>
+
+</head>
+<body>
+<header><img src="static/osbuild.png">
+  <h1>CI flakiness report from 2022-05-16T10:22:24Z</h1>
+</header>
+
+<a href="./">Back to the list of reports</a>
+
+
+  <h2>API: [gcp, aws/rhel-8.5-ga-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454707957">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454140921">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454709921">templates/composer: Enable specific maintenance parts</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454423941">templates/composer: Enable specific maintenance parts</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2453987262">templates/composer: Enable specific maintenance parts</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2447973125">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2444284074">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2443990153">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2436279451">Nightly testing: remove edge testing from nightly pipelines</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2437977319">composer: add support for logrus syslog hook</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310593">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2438235040">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675592">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080881">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>gcp.sh: [aws/rhel-8.6-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454707951">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454140830">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454709943">templates/composer: Enable specific maintenance parts</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454552492">templates/composer: Enable specific maintenance parts</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454423896">templates/composer: Enable specific maintenance parts</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2453987083">templates/composer: Enable specific maintenance parts</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2447973042">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2444284063">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2443990115">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2437977243">composer: add support for logrus syslog hook</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310529">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2438234966">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2441754894">cloudapi: make Repository.rhsm optional</a></li>
+
+      
+  </ul>
+
+  <h2>API: [gcp, aws/rhel-8.6-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454707959">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454140923">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454424000">templates/composer: Enable specific maintenance parts</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2453987265">templates/composer: Enable specific maintenance parts</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2447973127">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2444284083">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2443990155">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2436279456">Nightly testing: remove edge testing from nightly pipelines</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2437977320">composer: add support for logrus syslog hook</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310594">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2438235042">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675595">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+  </ul>
+
+  <h2>Rebase OSTree: [rhos-01/centos-stream-8-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2447972995">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2443990080">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832734">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2415993261">build(deps): bump github.com/vmware/govmomi from 0.27.4 to 0.28.0</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601736">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219115">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310486">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412425">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675496">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080741">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>gcp.sh: [aws/centos-stream-8-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454707946">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454140827">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2447973036">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2444284046">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2443990113">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2441460243">composer: add support for logrus syslog hook</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2437977211">composer: add support for logrus syslog hook</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310525">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2438234964">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675538">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+  </ul>
+
+  <h2>generic_s3.sh: [rhos-01/rhel-9.0-nightly-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454140939">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667339">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2441478387">tools/format-request-map: add &#39;core&#39; group to qcow2 customize</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2415993345">build(deps): bump github.com/vmware/govmomi from 0.27.4 to 0.28.0</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601773">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219267">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310612">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412509">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675621">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080905">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree simplified installer: [rhos-01/rhel-8.6-nightly-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2456969850">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832703">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2441157508">templates/composer: give access to private quay repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601617">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219086">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310463">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412408">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675475">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080708">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>gcp.sh: [aws/centos-stream-9-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454707955">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454140832">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2447973046">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2444284069">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2443990117">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2436279345">Nightly testing: remove edge testing from nightly pipelines</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2437977249">composer: add support for logrus syslog hook</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310533">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2438234968">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+  </ul>
+
+  <h2>API: [gcp, aws/rhel-9.0-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454707960">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454140924">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2444284089">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2443990156">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2436279459">Nightly testing: remove edge testing from nightly pipelines</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2437977324">composer: add support for logrus syslog hook</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310596">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2438235046">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675596">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree raw image: [rhos-01/rhel-9.0-nightly-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2453986912">templates/composer: Enable specific maintenance parts</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832724">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601690">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219103">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310479">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412419">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675490">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2436822007">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080725">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>gcp.sh: [aws/rhel-8.5-ga-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2456969892">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454707949">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454140829">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2444284057">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2443990114">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2437977238">composer: add support for logrus syslog hook</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310527">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2438234965">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675539">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+  </ul>
+
+  <h2>generic_s3.sh: [rhos-01/rhel-8.6-nightly-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2441478384">tools/format-request-map: add &#39;core&#39; group to qcow2 customize</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832865">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601771">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219265">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310611">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412489">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675620">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080904">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>Installer: [rhos-01/centos-stream-9-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667366">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832893">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601814">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219332">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310635">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412536">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675633">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080942">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>libvirt.sh: [rhos-01/rhel-8.6-nightly-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667318">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832854">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601748">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219235">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310605">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412474">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675611">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080896">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>libvirt.sh: [rhos-01/centos-stream-8-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667313">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832852">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601745">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219220">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310603">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412472">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675607">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080891">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>New OSTree: [rhos-01/rhel-9.0-nightly-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832693">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601546">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219071">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310452">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412404">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675470">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2436148613">cloudapi: make Repository.rhsm optional</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080701">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>aws_s3.sh: [rhos-01/centos-stream-8-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667344">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832876">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601783">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219278">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310615">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412516">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675623">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080908">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>libvirt.sh: [rhos-01/rhel-9.0-nightly-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667322">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832856">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601755">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219244">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310606">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412475">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675612">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080897">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>aws_s3.sh: [rhos-01/centos-stream-9-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667355">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832884">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601799">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219318">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310621">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412525">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675627">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080916">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>Installer: [rhos-01/rhel-9.0-nightly-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667364">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832892">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601808">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219331">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310633">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412528">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675631">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080924">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>gcp.sh: [aws/rhel-9.0-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454707954">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454140831">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2444284066">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2443990116">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2436279342">Nightly testing: remove edge testing from nightly pipelines</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2437977246">composer: add support for logrus syslog hook</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310531">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2438234967">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+  </ul>
+
+  <h2>Rebase OSTree: [rhos-01/rhel-9.0-nightly-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2452963964">tools/format-request-map: add &#39;core&#39; group to qcow2 customize</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832731">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601723">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219114">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310484">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412424">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675495">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080739">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree: [rhos-01/rhel-8.5-ga-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2452551614">github: pin fedora:35 for the pylint check</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832671">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601440">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219059">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310440">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412394">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675454">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080681">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree: [rhos-01/centos-stream-8-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832682">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2436022389">Nightly testing: remove edge testing from nightly pipelines</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601494">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219066">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310446">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412399">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675461">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080692">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>aws_s3.sh: [rhos-01/rhel-9.0-nightly-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667354">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832882">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601795">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219311">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310619">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412523">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675626">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080914">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>aws_s3.sh: [rhos-01/rhel-8.6-nightly-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667351">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832880">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601789">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219300">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310618">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412522">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675625">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080911">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>generic_s3.sh: [rhos-01/rhel-8.5-ga-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667333">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832862">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601769">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219259">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310609">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412486">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675617">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080901">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree simplified installer: [rhos-01/rhel-9.0-nightly-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832711">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2437977063">composer: add support for logrus syslog hook</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601665">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219090">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310470">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412412">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675480">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080712">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>generic_s3.sh: [rhos-01/centos-stream-8-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667329">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832861">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601764">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219255">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310608">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412482">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675615">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080900">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>libvirt.sh: [rhos-01/centos-stream-9-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667326">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601762">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219249">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310607">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412476">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675614">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080898">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>generic_s3.sh: [rhos-01/centos-stream-9-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832871">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601775">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219270">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310613">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412515">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675622">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080907">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree: [rhos-01/rhel-8.6-nightly-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832675">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601465">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219063">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310442">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412397">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675456">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080685">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>New OSTree: [rhos-01/centos-stream-8-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832696">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601562">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219075">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310456">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412405">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675473">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080703">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>Rebase OSTree: [rhos-01/rhel-8.6-nightly-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832728">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601713">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219111">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310482">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412422">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675493">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080734">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree raw image: [rhos-01/centos-stream-8-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832720">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601682">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219101">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310477">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412417">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675488">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080722">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree raw image: [rhos-01/centos-stream-9-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832726">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601699">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219108">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310481">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412421">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675492">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080731">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>libvirt.sh: [rhos-01/rhel-8.5-ga-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667315">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601747">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219224">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310604">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412473">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675609">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080892">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree simplified installer: [rhos-01/centos-stream-8-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832708">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601628">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219087">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310467">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412409">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675477">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080709">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree raw image: [rhos-01/rhel-8.6-nightly-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832718">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601677">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219095">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310475">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412416">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675486">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080717">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree: [rhos-01/centos-stream-9-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832685">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601508">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219067">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310447">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412401">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675465">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080694">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree: [rhos-01/fedora-35-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832670">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601424">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219053">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310437">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412393">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675452">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080677">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>Installer: [rhos-01/rhel-8.6-nightly-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667362">worker: provide the region for the ASG</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601802">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219327">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310629">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412526">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675630">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080922">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree: [rhos-01/rhel-9.0-nightly-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832677">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601480">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219065">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310444">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412398">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675458">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080688">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>Rebase OSTree: [rhos-01/centos-stream-9-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2435832735">rpmplint: trust osbuild-composer repository</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601744">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219117">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310488">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412426">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675498">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080744">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>Base: [aws/rhel-8.6-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2459264391">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2457320983">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2455857341">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2450699685">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2439297190">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2445002857">cloudapi: make Repository.rhsm optional</a></li>
+
+      
+  </ul>
+
+  <h2>Base: [aws/rhel-9.0-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2459406476">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2457428691">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2456024391">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2450936723">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2439541683">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2445235115">cloudapi: make Repository.rhsm optional</a></li>
+
+      
+  </ul>
+
+  <h2>Manifests: [aws/rhel-9.0-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2459406481">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2457428696">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2456024394">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2450936725">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2439541692">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2445235120">cloudapi: make Repository.rhsm optional</a></li>
+
+      
+  </ul>
+
+  <h2>cross-distro.sh: [aws/rhel-9.0-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2459406524">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2457428746">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2456024424">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2450936754">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2439541754">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2445235175">cloudapi: make Repository.rhsm optional</a></li>
+
+      
+  </ul>
+
+  <h2>Base: [aws/rhel-9.0-nightly-aarch64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2459406479">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2457428693">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2456024393">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2450936724">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2439541687">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2445235118">cloudapi: make Repository.rhsm optional</a></li>
+
+      
+  </ul>
+
+  <h2>New OSTree: [rhos-01/rhel-8.6-nightly-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601522">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219069">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310449">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412403">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675469">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080698">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>aws_s3.sh: [rhos-01/rhel-8.5-ga-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601786">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219288">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310616">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412520">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675624">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080910">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>New OSTree: [rhos-01/centos-stream-9-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601600">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219082">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310460">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412407">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675474">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080704">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>OSTree simplified installer: [rhos-01/centos-stream-9-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423601675">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2423219094">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310473">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2426412413">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419675483">templates/composer: Parametrize tenants in acl</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080716">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>Base: [aws/rhel-8.6-nightly-aarch64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2459264394">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2457320984">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2455857342">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2450699687">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2439297192">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2445002861">cloudapi: make Repository.rhsm optional</a></li>
+
+      
+  </ul>
+
+  <h2>Image Tests: [aws/rhel-8.6-nightly-aarch64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2459264425">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2457321000">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2455857366">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2450699739">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2439297224">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2445002891">cloudapi: make Repository.rhsm optional</a></li>
+
+      
+  </ul>
+
+  <h2>Upgrade</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2459406529">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2457428751">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2456024428">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2450936758">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2439541758">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2445235185">cloudapi: make Repository.rhsm optional</a></li>
+
+      
+  </ul>
+
+  <h2>Image Tests: [aws/rhel-8.6-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2459264421">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2457320999">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2455857365">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2450699737">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2439297220">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2445002888">cloudapi: make Repository.rhsm optional</a></li>
+
+      
+  </ul>
+
+  <h2>Image Tests: [aws/rhel-9.0-nightly-aarch64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2459406512">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2457428733">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2456024416">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2450936745">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2439541742">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2445235159">cloudapi: make Repository.rhsm optional</a></li>
+
+      
+  </ul>
+
+  <h2>Image Tests: [aws/rhel-9.0-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2459406508">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2457428731">prometheus/job: measure time spent pending rather than queued</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2456024415">spec: require osbuild v55</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2450936744">templates/composer: fix access to private repos</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2439541741">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2445235152">cloudapi: make Repository.rhsm optional</a></li>
+
+      
+  </ul>
+
+  <h2>Base: [aws/centos-stream-8-aarch64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2452963607">tools/format-request-map: add &#39;core&#39; group to qcow2 customize</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2454897734">generate-all-test-cases: generate all manifests</a></li>
+
+      
+  </ul>
+
+  <h2>API: [azure, aws/rhel-8.6-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2447673614">templates/composer: add missing fluentd-config volume</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2446485050">templates/composer: give access to private quay repos</a></li>
+
+      
+  </ul>
+
+  <h2>Base: [aws/fedora-35-aarch64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2453985812">templates/composer: Enable specific maintenance parts</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2437976760">composer: add support for logrus syslog hook</a></li>
+
+      
+  </ul>
+
+  <h2>API: [azure, aws/rhel-9.0-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310585">worker: protect the instance from upgrading</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2453459837">generate-all-test-cases: generate all manifests</a></li>
+
+      
+  </ul>
+
+  <h2>regression-include-excluded-packages: [aws/centos-stream-8-aarch64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2452551513">github: pin fedora:35 for the pylint check</a></li>
+
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2436150990">distro: housekeeping with cpu arch and arch.Name()</a></li>
+
+      
+  </ul>
+
+  <h2>regression-old-worker-new-composer: [aws/rhel-8.5-ga-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310392">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+  <h2>koji.sh: [aws/rhel-9.0-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310498">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+  <h2>regression-composer-works-behind-satellite: [aws/fedora-34-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2447972747">templates/composer: fix access to private repos</a></li>
+
+      
+  </ul>
+
+  <h2>Base: [aws/rhel-8.5-ga-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2437976761">composer: add support for logrus syslog hook</a></li>
+
+      
+  </ul>
+
+  <h2>regression-composer-works-behind-satellite-fallback: [aws/centos-stream-9-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310305">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+  <h2>Base: [aws/centos-stream-9-aarch64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2453459390">generate-all-test-cases: generate all manifests</a></li>
+
+      
+  </ul>
+
+  <h2>azure.sh: [aws/rhel-8.5-ga-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2442667188">worker: provide the region for the ASG</a></li>
+
+      
+  </ul>
+
+  <h2>Base: [aws/centos-stream-8-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2437976763">composer: add support for logrus syslog hook</a></li>
+
+      
+  </ul>
+
+  <h2>azure.sh: [aws/centos-stream-8-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310516">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+  <h2>API: [edge-commit, aws/fedora-35-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2415993334">build(deps): bump github.com/vmware/govmomi from 0.27.4 to 0.28.0</a></li>
+
+      
+  </ul>
+
+  <h2>regression-no-explicit-rootfs-definition: [aws/rhel-8.5-ga-aarch64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2446677341">templates/composer: Specify registry for fluentd-hec image</a></li>
+
+      
+  </ul>
+
+  <h2>regression-composer-works-behind-satellite: [aws/centos-stream-9-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310322">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+  <h2>regression-include-excluded-packages: [aws/rhel-9.0-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310369">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+  <h2>regression-composer-works-behind-satellite: [aws/fedora-35-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2447972751">templates/composer: fix access to private repos</a></li>
+
+      
+  </ul>
+
+  <h2>New OSTree: [rhos-01/fedora-35-x86_64-large]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2419080695">distro/fedora: extend kernel options for openstack, qcow2, vhd and vmdk types</a></li>
+
+      
+  </ul>
+
+  <h2>API: [vsphere, aws/rhel-8.6-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310600">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+  <h2>API: [vsphere, aws/rhel-8.5-ga-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310598">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+  <h2>regression-excluded-dependency: [aws/centos-stream-8-aarch64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2443989974">Schutzfile: update Fedora snapshots to 20220504</a></li>
+
+      
+  </ul>
+
+  <h2>aws.sh: [aws/rhel-8.6-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2456835763">templates/composer: Enable specific maintenance parts</a></li>
+
+      
+  </ul>
+
+  <h2>vmware.sh: [aws/centos-stream-8-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310540">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+  <h2>Multi-tenancy</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310627">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+  <h2>filesystem.sh: [aws/centos-stream-8-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310558">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+  <h2>koji.sh: [aws/rhel-8.6-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310496">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+  <h2>filesystem.sh: [aws/rhel-8.5-ga-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310559">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+  <h2>Base: [aws/fedora-35-x86_64]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2453985801">templates/composer: Enable specific maintenance parts</a></li>
+
+      
+  </ul>
+
+  <h2>API: [vsphere, aws/rhel-9.0-nightly-x86_64, true]</h2>
+  <ul>
+      
+        <li><a href="https://gitlab.com/redhat/services/products/image-builder/ci/osbuild-composer/-/jobs/2420310601">worker: protect the instance from upgrading</a></li>
+
+      
+  </ul>
+
+</body>
+</html>
